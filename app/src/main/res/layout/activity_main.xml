@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center|bottom"
     tools:context=".MainActivity">
+
     <TextView
-        android:textSize="30sp"
-        android:text="view 1"
-        android:background="#FFEE58"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:background="#FFEE58"
+        android:text="view 1"
+        android:textSize="30sp" />
 
 </LinearLayout>
