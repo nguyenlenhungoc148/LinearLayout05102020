@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Thiếu mất android: layout_width trên tag tổng, lúc xóa tên tag và thay bằng LinearLayout phải cẩn thận-->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FB0008"
+            android:text="A"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#29B6F6"
+            android:text="B"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFCA28"
+            android:text="C"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#7E57C2"
+            android:text="D"
+            android:textSize="30sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="A"
+            android:textSize="30sp"
+            android:background="#EC407A"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textSize="30sp"
+            android:background="#66BB6A"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="C"
+            android:textSize="30sp"
+            android:background="#26C6DA"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="D"
+            android:textSize="30sp"
+            android:background="#26A69A"
+            android:gravity="center"/>
+
+</LinearLayout>
